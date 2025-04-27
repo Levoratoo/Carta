@@ -1,0 +1,123 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #3d5a80;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cabecalho h1 {
+    font-size: 48px;
+}
+
+.cabecalho p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Seção Sobre */
+.sobre {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.sobre h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3d5a80;
+}
+
+/* Galeria de Cards */
+.galeria {
+    padding: 60px 20px;
+    background-color: #e0fbfc;
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #293241;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    color: #3d5a80;
+    margin-bottom: 10px;
+}
+
+/* Seção Projeto Caramelo */
+.projeto-caramelo {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.projeto-caramelo h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ee6c4d;
+}
+
+.projeto-caramelo p {
+    margin-bottom: 30px;
+}
+
+.botao-caramelo {
+    background-color: #ee6c4d;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao-caramelo:hover {
+    background-color: #ff9566;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #3d5a80;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
